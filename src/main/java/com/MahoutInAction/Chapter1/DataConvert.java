@@ -15,9 +15,9 @@ public class DataConvert {
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new FileReader(
-				"src/com/MahoutInAction/Chapter1/rawdata.data"));
+				"src/main/java/com/MahoutInAction/Chapter1/rawdata.data"));
 		BufferedWriter bw = new BufferedWriter(new FileWriter(
-				"src/com/MahoutInAction/Chapter1/ProcesedData.csv"));
+				"src/main/java/com/MahoutInAction/Chapter1/ProcesedData.csv"));
 
 		processData(br, bw);
 

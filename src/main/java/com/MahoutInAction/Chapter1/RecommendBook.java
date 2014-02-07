@@ -19,7 +19,7 @@ public class RecommendBook {
 	public static void main(String[] args) throws TasteException {
 		
 		try {
-			DataModel model=new FileDataModel(new File("src/com/MahoutInAction/Chapter1/ProcesedData.csv"));
+			DataModel model=new FileDataModel(new File("src/main/java/com/MahoutInAction/Chapter1/ProcesedData.csv"));
 			
 			UserSimilarity similarity = new PearsonCorrelationSimilarity(model);
 
